@@ -34,13 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		612FD74A2A2F64FD00B601E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CE60C929CC42DF00BE84E4 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CE60CC29CC42DF00BE84E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61CE60CE29CC42DF00BE84E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61CE60D029CC42DF00BE84E4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		61CE60D529CC42E100BE84E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61CE60D829CC42E100BE84E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		61CE60DA29CC42E100BE84E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CE60E629CC483800BE84E4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		61CE60E829CC487F00BE84E4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		61CE60EA29CC48A400BE84E4 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				61CE60E229CC434500BE84E4 /* Models */,
 				61CE60E029CC433800BE84E4 /* Views */,
 				61CE60E129CC433E00BE84E4 /* Controllers */,
-				61CE60DA29CC42E100BE84E4 /* Info.plist */,
+				612FD74A2A2F64FD00B601E2 /* Info.plist */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
