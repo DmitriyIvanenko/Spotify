@@ -54,16 +54,16 @@ final class APICaller {
         type: HTTPMethod,
         completion: @escaping (URLRequest) -> Void
     ) {
-            AuthManager.shared.withValidToken { token in
-                guard let apiURL = url else {
-                    return
-                }
-                var reqest = URLRequest(url: apiURL)
-                reqest.setValue("Bearer \(token)",
-                                forHTTPHeaderField: "Authorization")
-                reqest.httpMethod = type.rawValue
-                reqest.timeoutInterval = 30
-                completion(reqest)
+        AuthManager.shared.withValidToken { token in
+            guard let apiURL = url else {
+                return
             }
+            var reqest = URLRequest(url: apiURL)
+            reqest.setValue("Bearer \(token)",
+                            forHTTPHeaderField: "Authorization")
+            reqest.httpMethod = type.rawValue
+            reqest.timeoutInterval = 30
+            completion(reqest)
         }
+    }
 }

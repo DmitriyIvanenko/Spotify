@@ -22,7 +22,7 @@ final class HomeViewController: UIViewController {
     
     @objc func didTapEttings() {
         let vc = ProfileViewController()
-        vc.title = "Prpfile"
+        vc.title = "Profile"
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
