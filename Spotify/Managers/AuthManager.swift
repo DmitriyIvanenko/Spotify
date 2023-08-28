@@ -85,7 +85,7 @@ final class AuthManager {
             return
         }
         
-        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization")
+        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization: ") // _:
         
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, _, error in
             guard let data = data, error == nil else {
@@ -166,7 +166,7 @@ final class AuthManager {
             return
         }
         
-        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization")
+        request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization: ") // _:
         
         let task = URLSession.shared.dataTask(with: request) { [weak self] data, _, error in
             self?.refreshingToken = false
